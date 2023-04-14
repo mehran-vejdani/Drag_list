@@ -3,3 +3,48 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #595db8;
+}
+
+.sortable-list {
+    background: #fff;
+    width: 445px;
+    border-radius: 6px;
+    padding: 30px 35px 20px ;
+
+}
+.item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 11px;
+    padding: 10px 13px ;
+}
+.details {
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+.details img {
+    width: 43px;
+    height: 43px;
+    object-fit: cover;
+    margin-right: 12px;
+    border-radius: 50%;
+}
+.details span {
+    font-size: 1.1rem;
+}
+.item i {
+    font-size: 1.13rem;
+    color: #474747;
+}
